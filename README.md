@@ -2,7 +2,7 @@
 
 Web application with managed travel tours list
 
-Tech Stack
+# Tech Stack
 * Java
 * Maven
 * MySQL
