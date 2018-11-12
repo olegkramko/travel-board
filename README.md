@@ -6,4 +6,5 @@ Web application with managed travel tours list
 * Java
 * Maven
 * MySQL
-* Spring Framework
+
+# Functionality
