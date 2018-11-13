@@ -8,6 +8,6 @@ Web application with managed travel tours list
 * MySQL
 
 # Functionality
-add
-edit
-delete
+* Add tou
+* Edit tour
+* Delete tour
