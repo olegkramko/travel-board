@@ -1,19 +1,22 @@
 package web.travelboard.service;
 
+
+import web.travelboard.dao.TourDao;
 import web.travelboard.model.Tour;
 
 import java.util.List;
 
 public interface TourService {
+    void setTourDao(TourDao tourDao);
 
-    public void addTour(Tour tour);
+    void addTour(Tour tour);
 
-    public void updateTour(Tour tour);
+    void updateTour(Tour tour);
 
-    public void removeTour(int id);
+    void removeTour(int id);
 
-    public Tour getTourById(int id);
+    Tour getTourById(int id);
 
-    public List<Tour> listTours();
+    List<Tour> listTour();
 }
 
