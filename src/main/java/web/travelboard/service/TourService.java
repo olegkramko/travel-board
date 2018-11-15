@@ -5,6 +5,7 @@ import web.travelboard.model.Tour;
 import java.util.List;
 
 public interface TourService {
+
     public void addTour(Tour tour);
 
     public void updateTour(Tour tour);
