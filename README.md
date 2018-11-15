@@ -2,8 +2,13 @@
 
 Web application with managed travel tours list
 
-Tech Stack
+# Tech Stack
 * Java
 * Maven
 * MySQL
-* Spring Framework
+* Hibernate
+
+# Functionality
+* Add tour
+* Edit tour
+* Delete tour
