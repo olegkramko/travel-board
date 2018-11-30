@@ -9,7 +9,7 @@ public class Tour {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private static int id;
 
     @Column(name = "title")
     private String title;
@@ -20,7 +20,7 @@ public class Tour {
     @Column(name = "price")
     private int price;
 
-    public int getId() {
+    public static int getId() {
         return id;
     }
 
