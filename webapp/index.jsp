@@ -7,7 +7,7 @@
 <body>
 <h3>Travel</h3>
 <br/>
-<a href="<c:url value="/tours"/>" target="_blank">Tours list</a>
+<a href="<c:url value="/"/>" target="_blank">Tours list</a>
 <br/>
 </body>
 </html>
