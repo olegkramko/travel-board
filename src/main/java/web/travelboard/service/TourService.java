@@ -17,6 +17,6 @@ public interface TourService {
 
     Tour getTourById(int id);
 
-    List<Tour> listTour();
+    List<Tour> listTours();
 }
 
