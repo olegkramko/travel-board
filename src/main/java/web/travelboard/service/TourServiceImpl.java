@@ -1,4 +1,5 @@
 package web.travelboard.service;
+
 import web.travelboard.model.Tour;
 import web.travelboard.dao.TourDao;
 import org.springframework.stereotype.Service;
