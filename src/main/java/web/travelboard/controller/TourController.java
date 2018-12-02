@@ -31,7 +31,7 @@ public class TourController {
 
     @RequestMapping(value = "/tours/add", method = RequestMethod.POST)
     public String addTour(@ModelAttribute("tour") Tour tour){
-        if(Tour.getId() == 0){
+        if(tour.getId() == 0){
             this.tourService.addTour(tour);
         }else {
             this.tourService.updateTour(tour);
@@ -56,8 +56,8 @@ public class TourController {
     }
 
     @RequestMapping("tourdata/{id}")
-    public String TourData(@PathVariable("id") int id, Model model){
-        model.addAttribute("Tour", this.tourService.getTourById(id));
+    public String tourData(@PathVariable("id") int id, Model model){
+        model.addAttribute("tour", this.tourService.getTourById(id));
 
         return "tourdata";
     }
