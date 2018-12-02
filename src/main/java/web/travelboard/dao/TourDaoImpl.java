@@ -6,7 +6,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 import web.travelboard.model.Tour;
-
 import java.util.List;
 
 @Repository
