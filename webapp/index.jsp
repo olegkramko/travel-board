@@ -2,10 +2,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>Tours</title>
+  <title>Travel Board</title>
 </head>
 <body>
-<h3>Travel</h3>
+<h3>Tours</h3>
 <br/>
 <a href="<c:url value="/tours"/>" target="_blank">Tours list</a>
 <br/>
