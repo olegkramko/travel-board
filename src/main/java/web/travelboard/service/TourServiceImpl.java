@@ -1,17 +1,15 @@
 package web.travelboard.service;
-
+import web.travelboard.model.Tour;
+import web.travelboard.dao.TourDao;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import web.travelboard.dao.TourDao;
-import web.travelboard.model.Tour;
-
 import java.util.List;
 
 @Service
 public class TourServiceImpl implements TourService {
     private TourDao tourDao;
 
-    public void setTourDao(TourDao bookTour) {
+    public void setTourDao(TourDao tourDao) {
         this.tourDao = tourDao;
     }
 
@@ -40,7 +38,7 @@ public class TourServiceImpl implements TourService {
 
     @Override
     @Transactional
-    public List<Tour> listTour() {
+    public List<Tour> listTours() {
         return this.tourDao.listTours();
     }
 }
