@@ -1,8 +1,7 @@
 package web.travelboard.dao;
 
-import web.travelboard.model.Tour;
-
 import java.util.List;
+import web.travelboard.model.Tour;
 
 public interface TourDao {
 
