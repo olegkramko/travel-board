@@ -1,11 +1,12 @@
 # Travel Board
 
-Web application with managed travel tours list
+CRUD web application with managed travel tours list
 
 # Tech Stack
 * Java
 * Maven
 * MySQL
+* Junit
 * Hibernate
 * Spring Framework
 
